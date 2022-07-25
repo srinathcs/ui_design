@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="lbl_1">Enter your Name </string>
+    <string name="helper_text">First Letter in Caps </string>
+    <string name="lbl_2">Enter Your Address </string>
+    <string name="lbl_3"> Password </string>
+    <string name="lbl_4"> Enter Your Detail</string>
+    <string name="lbl_5">Outline</string>
 </resources>
