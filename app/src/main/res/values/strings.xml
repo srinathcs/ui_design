@@ -6,4 +6,30 @@
     <string name="lbl_3"> Password </string>
     <string name="lbl_4"> Enter Your Detail</string>
     <string name="lbl_5">Outline</string>
+    <string name="btn_1">button1</string>
+    <string name="btn_2">button2</string>
+    <string name="btn_3">button3</string>
+    <string name="btn_4">button4</string>
+    <string name="btn_5">button5</string>
+    <string name="btn_6">button6</string>
+    <string name="btn_7">button7</string>
+    <string name="btn_8">button8</string>
+    <string name="btn_9">button9</string>
+    <string name="btn_0">button0</string>
+    <string name="btn_01">button01</string>
+    <string name="btn_02">button02</string>
+    <string name="btn_03">button03</string>
+    <string name="btn_04">button04</string>
+    <string name="btn_05">button05</string>
+    <string name="btn_06">button06</string>
+    <string name="btn_07">button07</string>
+    <string name="btn_08">button08</string>
+    <string name="btn_09">button09</string>
+    <string name="btn_00">button00</string>
+    <string name="btn_001">button001</string>
+    <string name="btn_002">button002</string>
+    <string name="btn_003">button003</string>
+    <string name="btn_004">button004</string>
+    <string name="btn_005">button005</string>
+
 </resources>
