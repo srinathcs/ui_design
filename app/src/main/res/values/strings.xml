@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="btn_1">Full size jpge img</string>
+    <string name="btn_2"> PNG </string>
+    <string name="btn_3"> SVG </string>
+    <string name="btn_4"> opacity img</string>
+    <string name="img_1"> </string>
+    <string name="img_2"> </string>
+    <string name="img_3"> </string>
+    <string name="img_4"> </string>
 </resources>
