@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lbl_1"
-        android:hint="@string/lbl_1"
-        app:helperTextEnabled="true"
-        app:helperText="@string/helper_text"
-        app:endIconMode="clear_text">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lbl_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/lbl_1"
+        app:endIconMode="clear_text"
+        app:helperText="@string/helper_text"
+        app:helperTextEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/lbl_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="@string/lbl_2">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -32,6 +34,7 @@
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/lbl_3"
         android:layout_width="match_parent"
@@ -46,37 +49,35 @@
 
             />
     </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lbl_4"
-            android:hint="@string/lbl_4"
-            app:counterEnabled="true"
-            app:counterMaxLength="50">
 
-        <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lbl_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-        </com.google.android.material.textfield.TextInputLayout>
+        android:hint="@string/lbl_4"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:startIconDrawable="@drawable/heart">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/lbl_5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/lbl_5"
         app:endIconMode="clear_text"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        app:endIconDrawable="@drawable/heart">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
-
-
-
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
