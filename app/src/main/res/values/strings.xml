@@ -7,6 +7,7 @@
     <string name="btn_5">button5</string>
     <string name="btn_6">button6</string>
     <string name="btn_7">button7</string>
+    <string name="btn_8">text</string>
     <string name="btn_8">button8</string>
     <string name="btn_9">button9</string>
     <string name="btn_0">button0</string>
@@ -25,6 +26,5 @@
     <string name="btn_003">button003</string>
     <string name="btn_004">button004</string>
     <string name="btn_005">button005</string>
-
 
 </resources>
