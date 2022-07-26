@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="lbl_1">Enter your Name </string>
+    <string name="helper_text">First Letter in Caps </string>
+    <string name="lbl_2">Enter Your Address </string>
+    <string name="lbl_3"> Password </string>
+    <string name="lbl_4"> Enter Your Detail</string>
+    <string name="lbl_5">Outline</string>
     <string name="btn_1">button1</string>
     <string name="btn_2">button2</string>
     <string name="btn_3">button3</string>
@@ -7,7 +13,6 @@
     <string name="btn_5">button5</string>
     <string name="btn_6">button6</string>
     <string name="btn_7">button7</string>
-    <string name="btn_8">text</string>
     <string name="btn_8">button8</string>
     <string name="btn_9">button9</string>
     <string name="btn_0">button0</string>
