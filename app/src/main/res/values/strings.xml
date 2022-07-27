@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">Design</string>
     <string name="image_view">img</string>
-    <string name="textedit_1">sign up</string>
-    <string name="log_in">Login</string>
+    <string name="btn_2">login</string>
     <string name="text_view_2">boinad</string>
     <string name="edit_1">username</string>
     <string name="edit_2">password</string>
-    <string name="btn_0">ok</string>
-    <string name="edit_3">You Dont Have Account! Signup</string>
+    <string name="btn_0"> </string>
+    <string name="edit_3">You Dont Have Account? Signup</string>
 </resources>
