@@ -16,8 +16,7 @@ Drawable drawable;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        imageView=findViewById(R.id.img);
-        imageView.setImageResource(R.drawable.imv);
+
         getSupportActionBar().hide();
     }
 }

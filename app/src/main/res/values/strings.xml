@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name">Design</string>
     <string name="image_view">img</string>
-    <string name="btn_2">login</string>
+    <string name="btn_1"> </string>
+    <string name="btn_2"> Login </string>
+    <string name="btn_3"> </string>
+    <string name="btn_4"> </string>
+    <string name="btn_5">sign up </string>
+    <string name="btn_6"> </string>
     <string name="text_view_2">boinad</string>
-    <string name="edit_1">username</string>
-    <string name="edit_2">password</string>
-    <string name="btn_0"> </string>
+    <string name="edit_1">Username</string>
+    <string name="edit_2">Password</string>
     <string name="edit_3">You Dont Have Account? Signup</string>
+    <string name="edit_4">E-mail </string>
+    <string name="edit_5">Date Of Birth </string>
 </resources>
