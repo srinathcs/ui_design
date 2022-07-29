@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="text">Goals</string>
+    <string name="text_2">Be Active </string>
+    <string name="text_3">2 times a day </string>
+    <string name="text_4">Go for a walk </string>
+    <string name="text_5">5 times a week</string>
+    <string name="text_6">Read at night </string>
+    <string name="text_7">3 times a week </string>
+    <string name="text_8"> cook dinner </string>
+    <string name="text_9">1 time a day </string>
+    <string name="text_10">Organize work </string>
+    <string name="text_11">1 times a day </string>
+    <string name="text_12">Practice French</string>
+    <string name="text_13">2 times a week </string>
 </resources>
