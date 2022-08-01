@@ -1,14 +1,16 @@
-package com.facebook.design;
-
-import androidx.appcompat.app.AppCompatActivity;
+package activity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.facebook.design.R;
+
+public class ConstraintyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.test);
     }
 }

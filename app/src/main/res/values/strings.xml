@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="txt_1">Text 1</string>
+    <string name="txt_2">Text 2</string>
+    <string name="txt_3">Text 3</string>
+    <string name="txt_4">Text 4</string>
+    <string name="txt_5">Text 5</string>
+    <string name="btn_1">btn 1</string>
+    <string name="btn_2">btn 2</string>
+    <string name="btn_3">btn 3</string>
+    <string name="btn_4">btn 4</string>
+    <string name="btn_5">btn 5</string>
+    <string name="btn_6">btn 6</string>
+    <string name="btn_7">btn 7</string>
+    <string name="btn_8">btn 8</string>
+    <string name="btn_9">btn 9</string>
 </resources>
