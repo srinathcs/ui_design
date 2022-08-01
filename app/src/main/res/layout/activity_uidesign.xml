@@ -31,13 +31,15 @@
             android:textSize="20sp" />
 
         <ImageButton
+            android:id="@+id/btn_2"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_marginLeft="30dp"
             app:paddingLeft="80dp"
-            android:src="@drawable/dot"
-            android:contentDescription="@string/text_3"/>
+            android:contentDescription="@string/btn_2"
+            android:src="@drawable/dot"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -51,7 +53,7 @@
             app:cardCornerRadius="20dp"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="20dp"
-            app:cardBackgroundColor="@color/volit">
+            app:cardBackgroundColor="@color/violet">
 
             <LinearLayout
                 android:layout_width="match_parent"
