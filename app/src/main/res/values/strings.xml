@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="txt_1">First Name</string>
     <string name="edit_1">First Name </string>
     <string name="edit_2">Second Name</string>
     <string name="edit_3">DOB</string>

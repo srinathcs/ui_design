@@ -8,74 +8,73 @@
     android:orientation="vertical"
     android:layout_margin="10dp"
     tools:context=".Design_OneActivity">
-
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edit_1"
-        android:hint="@string/edit_1"
+        android:id="@+id/txt_1"
         app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputLayout
+        <androidx.appcompat.widget.AppCompatEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_1"
+            android:hint="@string/edit_1"
+            android:inputType="textPersonName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_2"
+        app:errorEnabled="true">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_2"
+            android:hint="@string/edit_2"
+            android:inputType="textPersonName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_3"
+        app:errorEnabled="true">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_3"
+            android:hint="@string/edit_3"
+            android:inputType="date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_4"
+        app:errorEnabled="true">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_4"
+            android:hint="@string/edit_4"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_5"
+        app:errorEnabled="true">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_5"
+            android:hint="@string/edit_5"
+            android:inputType="text"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edit_2"
-        android:inputType="text"
-        android:hint="@string/edit_2"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:id="@+id/edit_3"
-        android:hint="@string/edit_3"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:id="@+id/edit_4"
-        android:hint="@string/edit_4"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:id="@+id/edit_5"
-        android:hint="@string/edit_5"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:id="@+id/edit_6"
-        android:hint="@string/edit_6"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:id="@+id/edit_7"
-        android:hint="@string/edit_7"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:id="@+id/edit_8"
-        android:hint="@string/edit_8"/>
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:id="@+id/edit_9"
-        android:hint="@string/edit_9"/>
     <Button
         android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:hint="@string/btn_1"
         android:textColorHint="@color/white"
-        app:rippleColor="@color/material_dynamic_neutral100"
-        android:layout_gravity="center"
-        />
+        app:rippleColor="@color/material_dynamic_neutral100" />
 </LinearLayout>
