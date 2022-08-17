@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">Design</string>
+    <string name="app_name">Detail</string>
+    <string name="tvFather">Father Details</string>
+    <string name="tvMother">Mother Details</string>
+    <string name="tvChild">Child Details</string>
+    <string name="tilFatherFirstName">FirstName</string>
+    <string name="tilMotherFirstName">FirstName</string>
+    <string name="tilChildFirstName">FirstName</string>
+    <string name="tilFatherLastName">LastName</string>
+    <string name="tilMotherLastName">LastName</string>
+    <string name="tilChildLastName">LastName</string>
+    <string name="tilFatherAge">Age</string>
+    <string name="tilMotherAge">Age</string>
+    <string name="tilChildAge">Age</string>
+    <string name="tilFatherBloodGroup">Blood Group</string>
+    <string name="tilMotherBloodGroup">Blood Group</string>
+    <string name="tilChildBloodGroup">Blood Group</string>
+    <string name="tilFatherAddress">Address</string>
+    <string name="tilMotherAddress">Address</string>
+    <string name="tilChildAddress">Address</string>
+    <string name="tilFatherCity">City</string>
+    <string name="tilMotherCity">City</string>
+    <string name="tilChildCity">City</string>
+    <string name="tilFatherState">State</string>
+    <string name="tilMotherState">State</string>
+    <string name="tilChildState">State</string>
+    <string name="btnFatherSubmit">Submit</string>
+    <string name="btnMotherSubmit">Submit</string>
+    <string name="btnChildSubmit">Submit</string>
+
 </resources>
