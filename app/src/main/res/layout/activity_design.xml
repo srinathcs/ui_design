@@ -1,76 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="10dp"
-    tools:context=".Design_OneActivity">
+    android:orientation="vertical"
+    tools:context=".DesignActivity">
+
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_1"
         app:errorEnabled="true">
-        <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="@string/edit_1"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilSecondName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_2"
         app:errorEnabled="true">
-        <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="@string/edit_2"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDOB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_3"
         app:errorEnabled="true">
-        <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="@string/edit_3"
-            android:inputType="date"/>
+            android:inputType="date" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_4"
         app:errorEnabled="true">
-        <androidx.appcompat.widget.AppCompatEditText
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edit_4"
-            android:hint="@string/edit_4"
-            android:inputType="text"/>
+            android:hint="@string/edt_4"
+            android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDegree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_5"
         app:errorEnabled="true">
-        <androidx.appcompat.widget.AppCompatEditText
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edit_5"
-            android:hint="@string/edit_5"
-            android:inputType="text"/>
+            android:hint="@string/edt_5"
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

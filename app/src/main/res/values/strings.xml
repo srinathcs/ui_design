@@ -2,10 +2,10 @@
     <string name="app_name">Design</string>
     <string name="txt_1">First Name</string>
     <string name="edit_1">First Name </string>
-    <string name="edit_2">Second Name</string>
+    <string name="edit_2">Last Name</string>
     <string name="edit_3">DOB</string>
-    <string name="edit_4">E-mail</string>
-    <string name="edit_5">Degree</string>
+    <string name="edt_4">E-mail</string>
+    <string name="edt_5">Degree</string>
     <string name="edit_6">Passed Out Year</string>
     <string name="edit_7">College Name</string>
     <string name="edit_8">Roll</string>
